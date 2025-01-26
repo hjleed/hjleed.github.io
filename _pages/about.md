@@ -22,18 +22,8 @@ redirect_from:
 
 Over the years, I have taught several courses at the University of Ottawa. The following is a list of the courses I have been teaching. 
 
-A calendar description of the courses is provided at University of Ottawa's [course catalog](https://catalogue.uottawa.ca/en/courses/elg/){:target="_blank"}.
+A calendar description of the courses is provided at University of Ottawa's [course catalog](https://catalogue.uottawa.ca/en/courses/elg/){:target="_blank"}. See teaching section above.
 
-## Graduate Courses 
-- ELG 5255 - Applied Machine Learning
-- SYS 5100 Systems Engineering 
-
-## Undergraduate Courses 
-- ELG 3155 Introduction to Control Systems 
-- GNG 1106 Fundamentals of Engineering Computation
-- ELG 3125 Signal and System Analysis
-- ELG 4157 Modern Control Engineering
--	ELG 4177 Digital Signal Processing
 
 
 ## Contact
