@@ -79,12 +79,12 @@ analytics:
   google:
     tracking_id          : 
   goatcounter:
-    code		 : wail-uottawa
+    code		 : hjleed
 
 
 # Site Author
 author:
-  name             : "hjleed"
+  name             : "Hitham Jleed"
   avatar           : "profile3.jpg" #"profile.png"
   bio              : "Ph.D.<br>Part-time Professor @ <a style='color: black;' href='https://uottawa.ca' target='_blank'>uOttawa</a>"
   location         :
@@ -94,7 +94,7 @@ author:
   googlescholar    : "https://scholar.google.ca/citations?hl=en&user=uSZ9vZMAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate"
   email            : "hjleed@uottawa.ca"
   researchgate     : "https://www.researchgate.net/profile/Hitham-Jleed-2" # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://uniweb.uottawa.ca/view/profile/members/361?lang=en"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -115,7 +115,7 @@ author:
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "hjleed"
   vine             :
   weibo            :
   xing             :
@@ -238,51 +238,13 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Toronto # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
 
 # Archives
