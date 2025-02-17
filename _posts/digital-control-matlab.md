@@ -1,7 +1,7 @@
 ---
 title: 'digital-control-matlab'
-date: 2025-02
-permalink: /posts/2025/digital-control-matlab/
+date: 2025-02-17
+permalink: /posts/2025/02/digital-control-matlab/
 tags:
   - cool posts
   - category1
