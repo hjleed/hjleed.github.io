@@ -31,8 +31,8 @@ Over the years, I have taught several courses at the University of Ottawa, Lambt
 
 School of Electrical Engineering and Computer Science (EECS) <br />
 University of Ottawa <br />
-800 King Edward Avenue <br />
+20-800 King Edward Avenue <br />
 Ottawa, Ontario, K1N 6N5, Canada <br />
-**Email:** hjleed@uottawa.ca <br />
+
 
   
