@@ -15,8 +15,10 @@ redirect_from:
 
 ## Research
 
-- Digital Signal Processing
-- Applied Artificial Intelligence
+- Digital Signal Processing.
+- Applied Artificial Intelligence.
+- Digital Communication.
+- Nnatural Language Processing
 
 ## Teaching
 
