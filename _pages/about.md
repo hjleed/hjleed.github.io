@@ -20,9 +20,7 @@ redirect_from:
 
 ## Teaching
 
-Over the years, I have taught several courses at the University of Ottawa. The following is a list of the courses I have been teaching. 
-
-A calendar description of the courses is provided at University of Ottawa's [course catalog](https://catalogue.uottawa.ca/en/courses/elg/){:target="_blank"}. See teaching section above.
+Over the years, I have taught several courses at the University of Ottawa, Lambton College, Elmergib University, and Msallata Higher Institute of Science and Technology.  See the teaching section above.
 
 
 
