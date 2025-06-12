@@ -14,11 +14,11 @@ I have taught the following courses on a regular basis at the University of Otta
 - **SYS 5100 - Systems Engineering**
 
 ### Undergraduate Courses
-- [**ELG 3125 - Signal and System Analysis**](https://github.com/hjleed/ELG3125-Signal-and-System-Analysis){:target="_blank"}
-- [**GNG 1106 - Fundamentals of Engineering Computation**](https://github.com/hjleed/GNG1106_Archive){:target="_blank"}
-- [**ELG 3155 - Introduction to Control Systems**](https://github.com/hjleed/ELG-3155-Introduction-to-Control-Systems-){:target="_blank"}
-- [**ELG 4177 - Digital Signal Processing**](https://github.com/hjleed/ELG4177-Digital-Signal-Processing){:target="_blank"}
-- [**ELG 4157 - Modern Control Engineering**](https://github.com/hjleed/ELG-4157-Modern-Control-Engineering){:target="_blank"}
+- [**ELG 3125 - Signal and System Analysis**](https://github.com/hjleed/ELG3125-Signal-and-System-Analysis)
+- [**GNG 1106 - Fundamentals of Engineering Computation**](https://github.com/hjleed/GNG1106_Archive)
+- [**ELG 3155 - Introduction to Control Systems**](https://github.com/hjleed/ELG-3155-Introduction-to-Control-Systems-)
+- [**ELG 4177 - Digital Signal Processing**](https://github.com/hjleed/ELG4177-Digital-Signal-Processing)
+- [**ELG 4157 - Modern Control Engineering**](https://github.com/hjleed/ELG-4157-Modern-Control-Engineering)
 
 ## Lambton College
 
