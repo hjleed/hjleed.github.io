@@ -1,4 +1,14 @@
-pub_date	title	venue	excerpt	citation	url_slug	paper_url	slides_url
-2009-10-01	Paper Title Number 1	Journal 1	This paper is about the number 1. The number 2 is left for future work.	Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).	paper-title-number-1	http://academicpages.github.io/files/paper1.pdf	http://academicpages.github.io/files/slides1.pdf
-2010-10-01	Paper Title Number 2	Journal 1	This paper is about the number 2. The number 3 is left for future work.	Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).	paper-title-number-2	http://academicpages.github.io/files/paper2.pdf	http://academicpages.github.io/files/slides2.pdf
-2015-10-01	Paper Title Number 3	Journal 1	This paper is about the number 3. The number 4 is left for future work.	Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).	paper-title-number-3	http://academicpages.github.io/files/paper3.pdf	http://academicpages.github.io/files/slides3.pdf
+Year	Type	Title	Authors	Venue	Volume	Pages	DOI	Publisher	Notes
+2004	B.Sc. Project	Optimizing the Efficiency of a Solar Panel Tracking System	Jleed, Hitham H.	Sebha University	-	-	-	-	B.Sc. Final Project, Sebha, Libya
+2010	Research Project	Harvesting Coefficients for Quality Image Compression	Jleed, Hitham	University of Texas at San Antonio	-	-	-	-	Research Project
+2011	M.Sc. Thesis	Eukaryotic Gene Prediction	Jleed, Hitham H.	University of Texas at San Antonio	-	-	-	-	M.Sc. Thesis
+2011	Conference	Prediction of Coding Region in the DNA Sequences	Jleed, Hitham and Agaian, Sos	2011 IEEE International Conference on Systems, Man, and Cybernetics (SMC)	-	1128–1133	10.1109/ICSMC.2011.6083829	IEEE	-
+2011	Research Project	De-noising of 3D and Fractal Images Using Polynomial Thresholding	Jleed, Hitham	University of Texas at San Antonio	-	-	-	-	Research Project
+2013	Conference	Complex Indicator Sequence for Coding Region Prediction	Jleed, Hitham	2013 International Conference on Computer Applications Technology (ICCAT)	-	1–4	10.1109/ICCAT.2013.6521997	IEEE	-
+2013	Conference	An LMS Scheme for Adaptive Noise Cancellation	Jleed, Hitham	First International Conference on Electrical and Computer Engineering (ICECE 2013)	-	21–25	-	-	Benghazi, Libya
+2013	Conference	Face Recognition System Based on Template Matching in Frequency Domain	Jleed, Hitham	2013 BCS International IT Conference	-	13–16	10.14236/ewic/BCSIT2013.13	BCS	-
+2014	Conference	Design, Simulate and Approximate Parallel Coupled Microstrip Bandpass Filter at 2.4 GHz	Jleed, Hitham	2014 World Congress on Computer Applications and Information Systems (WCCAIS)	-	1–5	10.1109/WCCAIS.2014.6916589	IEEE	-
+2014	Research Project	Beamforming: Speech Interference Cancellation	Jleed, Hitham	University of Ottawa	-	-	-	-	Research Project
+2017	Conference	Acoustic Environment Classification Using Discrete Hartley Transform Features	Jleed, Hitham and Bouchard, Martin	2017 IEEE 30th Canadian Conference on Electrical and Computer Engineering (CCECE)	-	1–4	10.1109/CCECE.2017.7946845	IEEE	-
+2020	Journal	Open Set Audio Recognition for Multi-Class Classification With Rejection	Jleed, Hitham and Bouchard, Martin	IEEE Access	8	146523–146534	10.1109/ACCESS.2020.3015129	IEEE	-
+2022	Ph.D. Thesis	Audio Recognition in Incremental Open-Set Environments	Jleed, Hitham	University of Ottawa	-	1–176	-	-	Ph.D. Thesis, Ottawa, Canada
