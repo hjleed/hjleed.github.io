@@ -1,6 +1,6 @@
 ---
+permalink: /publications/
 title: "Publications"
-layout: page
 ---
 
 # Publications and Research Contributions
@@ -102,3 +102,4 @@ University of Texas at San Antonio
 ### 2004  
 **Optimizing the Efficiency of a Solar Panel Tracking System**  
 B.Sc. Final Project, Sebha University, Libya
+
