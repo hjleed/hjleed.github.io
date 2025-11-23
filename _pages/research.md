@@ -1,36 +1,38 @@
 ---
 permalink: /research/
-title: "research"
+title: "Research"
 ---
 
-Throughout my academic career, I have conducted multiple research contracts:
-## Emotion recognition (Post-doctoral research)
-(2023-2024) <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **OrbMedic** and UOttawa
-My post-doctoral research focused on developing advanced emotion-recognition systems capable of analyzing human affective states using multimodal data. The project involved designing and implementing machine-learning models that integrate physiological signals, facial-expression analysis, and contextual information to improve the accuracy and robustness of automated emotion-detection frameworks. This work contributed to the broader field of affective computing by enhancing the interpretability of emotion-recognition algorithms and supporting applications in healthcare, human–computer interaction, and adaptive learning environments.
+Throughout my academic career, I have conducted multiple research projects and industry-supported contracts, summarized below.
 
-## Audio Recognition in Incremental Open-Set Environments (PhD thesis)
-(2015-2022)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="70" style="vertical-align: middle;"> **The University of Ottawa**
+## Emotion Recognition (Post-Doctoral Research)
+(2023–2024) <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **OrbMedic** & University of Ottawa
 
-My doctoral research addressed the challenges of multi-class recognition in open-set sound classification and incremental model adaptation. The work proposed novel solutions to these problems and validated them through extensive experimental evaluation. Three peer-reviewed publications resulted from this research. The proposed methods demonstrated improved performance across a wide range of openness conditions in sound recognition tasks.
+My post-doctoral work focused on developing advanced emotion-recognition systems using multimodal data. The research involved designing machine-learning models that integrate physiological signals, facial-expression analysis, and contextual information to improve accuracy and robustness. This work contributed to affective computing, with applications in healthcare, human–computer interaction, and adaptive learning environments.
 
-## Audio-Based Surveillance (research contract)
-(2016-2018)<img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1397201340/db79af3c1247a5a26e5345a6b7137440.jpg?ik-sanitizeSvg=true" alt="Company Logo" width="100" style="vertical-align: middle;"> **IWatchLife** & University of Ottawa
+## Audio Recognition in Incremental Open-Set Environments (PhD Thesis)
+(2015–2022) <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="70" style="vertical-align: middle;"> **University of Ottawa**
 
-This project was conducted in two phases. The first involved algorithm development and evaluation in MATLAB, while the second produced a real-time C/C++ implementation integrated with iWatchLife’s platform. Both phases were validated using real-world camera recordings, with expanded testing in the second phase.
+My doctoral research examined the challenges of multi-class classification in open-set audio recognition and incremental model adaptation. I proposed and validated new algorithms through extensive experimentation, resulting in three peer-reviewed publications. The developed methods demonstrated improved performance across a wide range of openness conditions in sound-recognition scenarios.
 
-To improve system robustness, we implemented background–foreground audio separation, published in a conference paper with accompanying MATLAB code released on GitHub. The system successfully detected audio events in real data and operated in real time. Certain components were completed under confidentiality and intellectual property agreements with iWatchLife.
+## Audio-Based Surveillance (Research Contract)
+(2016–2018) <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1397201340/db79af3c1247a5a26e5345a6b7137440.jpg?ik-sanitizeSvg=true" alt="Company Logo" width="100" style="vertical-align: middle;"> **iWatchLife** & University of Ottawa
 
+This project proceeded in two phases:  
+1. **Algorithm development** and evaluation in MATLAB.  
+2. **Real-time implementation** in C/C++ integrated with iWatchLife’s surveillance platform.
 
+To enhance system robustness, we introduced background–foreground audio separation, published as a conference paper with publicly released MATLAB code. The resulting system achieved real-time audio-event detection on real-world recordings. Portions of the work were completed under confidentiality and intellectual property agreements with iWatchLife.
 
-## Linear Predictive Coding in hearing aids With Backward Adaptation and Noise Shaping (research contract)
-(2015-2026)<img src="https://eu-images.contentstack.com/v3/assets/blt7831180d775082fd/blt84f1f9c70f625771/66c2dd38d058312bcd761556/starkey_hearing_technologies_logo.jpg?branch=web_prod" alt="Company Logo" width="100" style="vertical-align: middle;"> **StarKey** & University of Ottawa
-We conducted linear predictive coding (LPC), backward adaptation that aws advantage over the traditional forward adaptation of prediction coefficients. Specifically, backward adaptation eliminates the need to transmit prediction coefficients from the encoder to the decoder, thereby reducing the required bit rate. In addition, this method provided a very low computational complexity and minimal algorithmic delay, making it particularly suitable for real-time applications such as hearing aids.
-In our proposed LPC framework employing backward adaptation, we evaluated performance at an overall data rate of 32 kbit/s for speech signals sampled at fₛ = 8 kHz. The results demonstrate  a perceptual quality improvement of approximately 0.2 in PESQ compared to the conventional forward-adaptation approach.
+## Linear Predictive Coding for Hearing Aids (Research Contract)
+(2015–2016) <img src="https://eu-images.contentstack.com/v3/assets/blt7831180d775082fd/blt84f1f9c70f625771/66c2dd38d058312bcd761556/starkey_hearing_technologies_logo.jpg?branch=web_prod" alt="Company Logo" width="100" style="vertical-align: middle;"> **Starkey** & University of Ottawa
 
+This project developed a linear predictive coding (LPC) framework using backward adaptation and noise shaping. Backward adaptation eliminates the need to transmit prediction coefficients, reducing bit rate while maintaining low computational complexity and minimal algorithmic delay—features essential for hearing-aid applications.  
+At a data rate of 32 kbit/s and sampling frequency of 8 kHz, the proposed method achieved an improvement of approximately 0.2 PESQ compared to traditional forward-adaptation LPC techniques.
 
+## Graduate Course Instruction: SYS 5100 – Systems Engineering
+(Winter 2025) <img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **University of Ottawa**
 
-## Teaching a grade course SYS 5100 - Systems Engineering
-( Winter 2025)<img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **UOttawa**
-I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement methods, observer design, the separation principle, and compensator synthesis. The course also introduced optimal control concepts, including the linear quadratic regulator (LQR), algebraic Riccati equations, Kalman filtering, and fundamentals of nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic dynamics.
+I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement, observer design, optimal control (LQR, Riccati equations), Kalman filtering, and introductory nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic systems.
 
-In addition to the midterm examination, students completed three graded projects involving MATLAB-based fuzzy logic controllers and PID (Proportional–Integral–Derivative) control. These projects demonstrated the use of PID controllers in practical domains such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulations by reviewing published studies on PID applications in electromechanical systems, including automotive systems, thermal control, and dynamic mechanical processes. The course emphasized validating controller performance through MATLAB simulations, illustrating system stability, disturbance rejection, and real-time responsiveness.
+Students completed three graded MATLAB-based projects involving fuzzy-logic controllers and PID (Proportional–Integral–Derivative) control. These projects explored PID applications in areas such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulation work through reviews of published studies on PID control in various electromechanical systems, emphasizing performance validation through MATLAB simulations.
