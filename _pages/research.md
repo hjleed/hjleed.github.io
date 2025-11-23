@@ -36,3 +36,9 @@ At a data rate of 32 kbit/s and sampling frequency of 8 kHz, the proposed method
 I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement, observer design, optimal control (LQR, Riccati equations), Kalman filtering, and introductory nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic systems.
 
 Students completed three graded MATLAB-based projects involving fuzzy-logic controllers and PID (Proportional–Integral–Derivative) control. These projects explored PID applications in areas such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulation work through reviews of published studies on PID control in various electromechanical systems, emphasizing performance validation through MATLAB simulations.
+
+## Eukaryotic Gene Prediction (Master’s Research)
+<img src="https://upload.wikimedia.org/wikipedia/en/2/2d/University_of_Texas_at_San_Antonio_seal.svg" alt="Company Logo" width="80" style="vertical-align: middle;"> **University of Texas at San Antonio**
+
+As part of my master’s studies, I conducted research on computational methods for eukaryotic gene prediction. The work focused on developing and evaluating algorithms capable of identifying coding regions within complex genomic sequences, where intron–exon structures present significant analytical challenges. My research involved applying statistical modeling, sequence analysis, and machine-learning techniques to improve the accuracy of gene-structure prediction in eukaryotic organisms. This project strengthened my foundation in bioinformatics and contributed to a deeper understanding of computational genomics and biological signal processing.
+
