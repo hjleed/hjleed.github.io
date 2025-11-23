@@ -9,7 +9,7 @@ Throughout my academic career, I have conducted multiple research contracts:
 My post-doctoral research focused on developing advanced emotion-recognition systems capable of analyzing human affective states using multimodal data. The project involved designing and implementing machine-learning models that integrate physiological signals, facial-expression analysis, and contextual information to improve the accuracy and robustness of automated emotion-detection frameworks. This work contributed to the broader field of affective computing by enhancing the interpretability of emotion-recognition algorithms and supporting applications in healthcare, human–computer interaction, and adaptive learning environments.
 
 ## Audio Recognition in Incremental Open-Set Environments (PhD thesis)
-(2015-2022)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **The University of Ottawa**
+(2015-2022)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="70" style="vertical-align: middle;"> **The University of Ottawa**
 
 My doctoral research addressed the challenges of multi-class recognition in open-set sound classification and incremental model adaptation. The work proposed novel solutions to these problems and validated them through extensive experimental evaluation. Three peer-reviewed publications resulted from this research. The proposed methods demonstrated improved performance across a wide range of openness conditions in sound recognition tasks.
 
