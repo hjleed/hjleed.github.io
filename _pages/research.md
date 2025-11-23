@@ -9,7 +9,7 @@ Throughout my academic career, I have conducted multiple research contracts:
 My post-doctoral research focused on developing advanced emotion-recognition systems capable of analyzing human affective states using multimodal data. The project involved designing and implementing machine-learning models that integrate physiological signals, facial-expression analysis, and contextual information to improve the accuracy and robustness of automated emotion-detection frameworks. This work contributed to the broader field of affective computing by enhancing the interpretability of emotion-recognition algorithms and supporting applications in healthcare, human–computer interaction, and adaptive learning environments.
 
 ## Audio Recognition in Incremental Open-Set Environments (PhD thesis)
-(2015-2022)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png"alt="Company Logo" width="100" style="vertical-align: middle;"> **The University of Ottawa**
+(2015-2022)<img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **The University of Ottawa**
 
 My doctoral research addressed the challenges of multi-class recognition in open-set sound classification and incremental model adaptation. The work proposed novel solutions to these problems and validated them through extensive experimental evaluation. Three peer-reviewed publications resulted from this research. The proposed methods demonstrated improved performance across a wide range of openness conditions in sound recognition tasks.
 
@@ -30,7 +30,7 @@ In our proposed LPC framework employing backward adaptation, we evaluated perfor
 
 
 ## Teaching a grade course SYS 5100 - Systems Engineering
-( Winter 2025)<img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **Company Name**
+( Winter 2025)<img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **Company Name**
 I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement methods, observer design, the separation principle, and compensator synthesis. The course also introduced optimal control concepts, including the linear quadratic regulator (LQR), algebraic Riccati equations, Kalman filtering, and fundamentals of nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic dynamics.
 
 In addition to the midterm examination, students completed three graded projects involving MATLAB-based fuzzy logic controllers and PID (Proportional–Integral–Derivative) control. These projects demonstrated the use of PID controllers in practical domains such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulations by reviewing published studies on PID applications in electromechanical systems, including automotive systems, thermal control, and dynamic mechanical processes. The course emphasized validating controller performance through MATLAB simulations, illustrating system stability, disturbance rejection, and real-time responsiveness.
