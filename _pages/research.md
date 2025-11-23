@@ -30,7 +30,7 @@ In our proposed LPC framework employing backward adaptation, we evaluated perfor
 
 
 ## Teaching a grade course SYS 5100 - Systems Engineering
-( Winter 2025)<img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **Company Name**
+( Winter 2025)<img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **UOttawa**
 I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement methods, observer design, the separation principle, and compensator synthesis. The course also introduced optimal control concepts, including the linear quadratic regulator (LQR), algebraic Riccati equations, Kalman filtering, and fundamentals of nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic dynamics.
 
 In addition to the midterm examination, students completed three graded projects involving MATLAB-based fuzzy logic controllers and PID (Proportional–Integral–Derivative) control. These projects demonstrated the use of PID controllers in practical domains such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulations by reviewing published studies on PID applications in electromechanical systems, including automotive systems, thermal control, and dynamic mechanical processes. The course emphasized validating controller performance through MATLAB simulations, illustrating system stability, disturbance rejection, and real-time responsiveness.
