@@ -30,13 +30,6 @@ To enhance system robustness, we introduced background–foreground audio separa
 This project developed a linear predictive coding (LPC) framework using backward adaptation and noise shaping. Backward adaptation eliminates the need to transmit prediction coefficients, reducing bit rate while maintaining low computational complexity and minimal algorithmic delay—features essential for hearing-aid applications.  
 At a data rate of 32 kbit/s and sampling frequency of 8 kHz, the proposed method achieved an improvement of approximately 0.2 PESQ compared to traditional forward-adaptation LPC techniques.
 
-## Graduate Course Instruction: SYS 5100 – Systems Engineering
-(Winter 2025) <img src="https://www.zakirtechblog.com/post/matlab-optimization/featured.png" alt="Company Logo" width="60" style="vertical-align: middle;"> **University of Ottawa**
-
-I taught SYS 5100, a graduate-level course covering state-space modeling, controllability and observability, minimal realizations, state and output feedback, pole-placement, observer design, optimal control (LQR, Riccati equations), Kalman filtering, and introductory nonlinear control with applications to fuzzy systems, neural networks, genetic algorithms, and chaotic systems.
-
-Students completed three graded MATLAB-based projects involving fuzzy-logic controllers and PID (Proportional–Integral–Derivative) control. These projects explored PID applications in areas such as temperature regulation, DC motor control, power factor correction, and voltage regulation. Students supported their simulation work through reviews of published studies on PID control in various electromechanical systems, emphasizing performance validation through MATLAB simulations.
-
 ## Eukaryotic Gene Prediction (Master’s Research)
 (2011) <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="Company Logo" width="50" style="vertical-align: middle;"> **The University of Texas at San Antonio**
 
