@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BAM-3034 – Sentiment Analysis & Text Mining | Winter 2026</title>
+
+  <!-- ====== CLEAN, ACADEMIC CSS ====== -->
+  <style>
+    :root {
+      --primary: #0b3c5d;
+      --secondary: #328cc1;
+      --light: #f4f6f8;
+      --dark: #222;
+      --accent: #e9f2f9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.3rem;
+    }
+
+    ul { padding-left: 1.2rem; }
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* ===== TABLE ===== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--primary);
+      color: white;
+      text-align: left;
+    }
+
+    tr:nth-child(even) {
+      background: #fafafa;
+    }
+
+    .highlight {
+      background: var(--accent);
+      font-weight: bold;
+    }
+
+    /* ===== TEXTBOOK ===== */
+    .textbook {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .textbook img {
+      width: 140px;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin: 2rem 0 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>BAM-3034: Sentiment Analysis & Text Mining</h1>
+  <p>Winter 2026 · Hitham Jleed</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Course Schedule</h2>
+    <ul>
+      <li><strong>Tuesday:</strong> 12:30–2:30 PM (GH G105)</li>
+      <li><strong>Wednesday:</strong> 12:30–2:30 PM (Online – <a href="#">MS Teams</a>)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Textbook & Learning Resources</h2>
+    <div class="textbook">
+      <img src="https://m.media-amazon.com/images/I/61wvl7I2e-L.jpg" alt="Text Analytics with Python" />
+      <div>
+        <p><strong>Text Analytics with Python (2nd Edition)</strong><br>
+        Dipanjan Sarkar · Apress</p>
+        <ul>
+          <li><a href="https://github.com/dipanjanS/text-analytics-with-python/tree/master/New-Second-Edition">Author GitHub Code</a></li>
+          <li><a href="https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72/">Author Article (TDS)</a></li>
+          <li><a href="https://www.youtube.com/live/rDosBdOMoXU">Author Lecture (YouTube)</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Evaluation Breakdown</h2>
+    <ul>
+      <li><strong>Tests (35%)</strong>
+        <ul>
+          <li>Midterm: 15%</li>
+          <li>Final Exam: 20%</li>
+        </ul>
+      </li>
+      <li><strong>Labs & Project (65%)</strong>
+        <ul>
+          <li>10 Labs × 5% = 50%</li>
+          <li>Final Project = 15%</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Weekly Course Plan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Topics</th>
+          <th>Labs / Milestones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Intro to NLP, Course Overview</td><td>Lab 1 Tutorial</td></tr>
+        <tr><td>2</td><td>Text Processing & Understanding</td><td>Lab 1 Due · Lab 2 Tutorial</td></tr>
+        <tr><td>3</td><td>Text Representation & Mining</td><td>Lab 2 Due · Lab 3 Tutorial</td></tr>
+        <tr><td>4</td><td>N-grams & Document Similarity</td><td>Lab 3 Due · Lab 4 Tutorial</td></tr>
+        <tr><td>5</td><td>Text Classification (I)</td><td>Lab 4 Due · Lab 5 Tutorial</td></tr>
+        <tr><td>6</td><td>Model Evaluation</td><td>Lab 5 Due · Lab 6 Tutorial</td></tr>
+        <tr class="highlight"><td>7</td><td colspan="2">Midterm Exam. Lab 6 Due</td></tr>
+        <tr class="highlight"><td>8</td><td colspan="2">Reading Week</td></tr>
+        <tr><td>9</td><td>Text Classification (II)</td><td>Project Proposal · Lab 7 Tutorial</td></tr>
+        <tr><td>10</td><td>Recommender Systems</td><td>Lab 7 Due · Lab 8 Tutorial</td></tr>
+        <tr><td>11</td><td>Clustering</td><td>Lab 8 Due · Lab 9 Tutorial</td></tr>
+        <tr><td>12</td><td>Topic Modeling</td><td>Lab 9 Due · Lab 10 Tutorial</td></tr>
+        <tr><td>13</td><td>Sentiment Analysis & Summarization</td><td>Lab 10 Due. Project Presentation</td></tr>
+		<tr><td>14</td><td>Project Presentation</td><td>Project Presentation</td></tr>
+        <tr class="highlight"><td>15</td><td colspan="2">Final Exam</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+<section>
+  <h2>Project Components &amp; Deliverables</h2>
+
+  <p>
+    Students are required to submit the following <strong>four mandatory deliverables</strong>
+    for the final course project. Each component contributes to the overall project grade
+    and must be submitted by the specified deadlines.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Project Proposal:</strong>
+      A written document outlining the problem statement, project objectives, dataset(s),
+      proposed methodology, and expected outcomes.
+    </li>
+
+    <li>
+      <strong>Project Code:</strong>
+      Complete, well-documented Python source code implementing the proposed solution.
+      The code must run correctly and reproduce all reported results.
+    </li>
+
+    <li>
+      <strong>Final Project Report:</strong>
+      A structured technical report including an introduction, related studies,
+      methodology, experiments, results, and conclusion. The report must follow
+      academic writing standards.
+    </li>
+
+    <li>
+      <strong>Presentation:</strong>
+      A concise oral presentation summarizing the project motivation, approach,
+      experimental results, and key conclusions.
+    </li>
+  </ul>
+  
+<table class="grading-table">
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+<th>Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Proposal</td>
+<td>Clear definition of project objectives, scope, and implementation plan.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Python Code</td>
+<td>Functional, well-structured Python implementation following best practices.</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Introduction</td>
+<td>Clear problem statement, motivation, and project objectives.</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>Related Study</td>
+<td>APA-style references with at least 10 scholarly articles.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Methodology</td>
+<td>Well-defined, justified, and reproducible methodology.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Experiments</td>
+<td>Correct execution, documentation, and presentation of experimental results.</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Conclusion</td>
+<td>Summary of findings, limitations, and future directions.</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Presentation</td>
+<td>Clear, concise slides with effective discussion of results.</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+</section>
+</main>
+
+<footer>
+  © 2026 · BAM-3034 · Sentiment Analysis & Text Mining
+</footer>
+
+</body>
+</html>
