@@ -336,16 +336,19 @@ redirect_from:
     </div>
   </section>
   
-  <section>
-<div>
+---
+<section id="Quiz">
+## 📝 Interactive Practice Quiz
+Test your knowledge with this curated collection of **55 NPPE practice questions**. This quiz covers essential topics including Ethics, Law, and Professional Liability.
 
-  ## 📝 Interactive Practice Quiz
-Test your knowledge with my collection of 55 NPPE practice questions.
-
-[Take the Practice Quiz](./nppe-quiz.html){: .btn .btn--primary}
-
+<div style="text-align: center; margin: 30px 0;">
+    <a href="./NP_quiz.html" style="background-color: #3498db; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        🚀 Launch the Practice Quiz
+    </a>
 </div>
-  </section>
+</section>
+
+---
 
   <footer style="text-align:center; padding:2rem; background:#f4f7fa; color:#666; font-size:0.9rem;">
     <p>NPPE Study Hub – Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved<br>
