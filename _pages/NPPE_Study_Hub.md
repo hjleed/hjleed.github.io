@@ -338,14 +338,19 @@ redirect_from:
   
 ---
 <section id="Quiz">
-## 📝 Interactive Practice Quiz
-Test your knowledge with this curated collection of **55 NPPE practice questions**. This quiz covers essential topics including Ethics, Law, and Professional Liability.
-
-<div style="text-align: center; margin: 30px 0;">
-    <a href="./NP_quiz.html" style="background-color: #3498db; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.2em; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-        🚀 Launch the Practice Quiz
+  <h2>📝 Interactive Practice Quiz</h2>
+  
+  <p>Test your knowledge with this curated collection of <strong>55 NPPE practice questions</strong>. The quiz covers all major topics including Ethics, Law, Professional Practice, and Professional Liability.</p>
+  
+  <div class="quiz-launch">
+    <a href="./NP_quiz.html" class="quiz-btn">
+      🚀 Launch the Practice Quiz
     </a>
-</div>
+  </div>
+
+  <p style="text-align: center; color: #666; font-size: 0.95em; margin-top: 20px;">
+    <em>55 questions • Covers the full NPPE Blueprint • Instant feedback and explanations</em>
+  </p>
 </section>
 
 ---
