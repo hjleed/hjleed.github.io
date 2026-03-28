@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPPE Practice Quiz - 55 Questions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 { text-align: center; color: #2c3e50; }
+        .subtitle { text-align: center; color: #555; margin-bottom: 30px; }
+        .question {
+            background: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 6px solid #3498db;
+        }
+        .question h3 { margin-top: 0; color: #2980b9; }
+        .options label {
+            display: block;
+            padding: 12px 15px;
+            margin: 8px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .options label:hover { background: #e9ecef; }
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 8px 5px;
+        }
+        .check-btn { background: #27ae60; color: white; }
+        .reveal-btn { background: #3498db; color: white; }
+        .reset-btn { background: #e74c3c; color: white; }
+        button:hover { opacity: 0.9; }
+        .feedback {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .correct { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .incorrect { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .score {
+            text-align: center;
+            font-size: 1.8em;
+            margin: 40px 0;
+            padding: 25px;
+            background: #e8f5e9;
+            border-radius: 12px;
+            border: 2px solid #27ae60;
+        }
+        .progress {
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practice Exam (NPPE) Practice Quiz</h1>
+    <p class="subtitle">55 Questions Hitham's collection</p>
+
+    <div id="quiz"></div>
+
+    <div style="text-align:center; margin:40px 0;">
+        <button class="check-btn" onclick="submitAll()">Submit All & See Score</button>
+        <button class="reset-btn" onclick="resetQuiz()">Reset Quiz</button>
+    </div>
+
+    <div id="finalScore" class="score" style="display:none;"></div>
+
+    <script>
+        const quizData = [
+            { q: "Countries like the United States do not self-regulate their engineering profession and rely on appointed licensing boards and government regulators to oversee engineering work. In contrast, Canadian engineers are self-regulated. What is the meaning of a “self-regulating” profession?", 
+              options: ["A group of people who review each other’s work for correctness.", "Each province/territory has passed an Act to form an Association which regulates the profession.", "An association ensures its members follow bylaws, pay dues, and inform the public about upcoming projects.", "Interprovincial teams that police the decisions of their members."], 
+              answer: 1, explanation: "Self-regulation means the profession is granted statutory authority by government to license, set standards, and discipline its own members in the public interest." },
+
+            { q: "At Roller Coaster Inc., a team designs a roller coaster structure and train. It produces the final drawing that is ready for construction. The final drawings cover several engineering and geoscience disciplines. How many people should seal the drawing?", 
+              options: ["One.", "Up to five.", "Everyone involved in the project should seal.", "One for the approving professional and the professional for each discipline."], 
+              answer: 3, explanation: "Each discipline’s responsible professional seals their portion, along with the overall approving professional." },
+
+            { q: "Jane, P.Geo., decides to proceed with the technology because it produces the greatest benefit for the greatest number of people. Jane’s decision can be most closely described as applying which ONE of the following ethical theories?", 
+              options: ["Aristotle’s Virtue-Based Ethics.", "Kant’s Duty-Based Ethics.", "Locke’s Rights-Based Ethics.", "Mill's Utilitarianism."], 
+              answer: 3, explanation: "This is classic Utilitarianism — choosing the action that produces the greatest benefit for the greatest number of people." },
+
+            { q: "Omar is a P. Eng., and along with his partner, provides structural design services... Omar decides not to give the 20% discount... Omar’s actions are most closely in violation of:", 
+              options: ["Fidelity to public needs.", "The reasonable person test.", "Secret commission.", "The Code of Ethics."], 
+              answer: 3, explanation: "Omar violated the Code of Ethics by acting dishonestly, exploiting a client, and breaching his duty of good faith to his partner." },
+
+            { q: "Jump Inc. ... One of the three main conditions defined by the Sale of Goods Act is “usability”... The two other main conditions that a product must satisfy according to the Act are:", 
+              options: ["Quality & durability.", "Reliability & affordability.", "Safety & durability.", "Safety & quality."], 
+              answer: 3, explanation: "The key implied conditions are fitness for purpose (usability), merchantable quality, and safety." },
+
+            { q: "If a practitioner reports dishonest or unethical conduct by another practitioner, most associations’ Code of Ethics would say that they are ___________.", 
+              options: ["Maintaining the honour and integrity of the practitioner's profession.", "Not acting towards other practitioners with courtesy and good faith.", "Not devoted to professional integrity.", "Trying to injure the reputation of the practitioner."], 
+              answer: 0, explanation: "Reporting unethical conduct upholds the honour and integrity of the profession." },
+
+            { q: "Jacob is a highly skilled land surveyor... To avoid the conflict of interest, Jacob’s BEST course of action is to:", 
+              options: ["Exclude himself from the hiring process and let an independent committee make the decision.", "Recommend his brother for the position but ensure a transparent and competitive hiring process is conducted.", "Hire his brother immediately, but disclose the relationship to the local government.", "Hire his brother but ask him to work on projects outside of those funded by the grant."], 
+              answer: 0, explanation: "Recusing himself completely is the cleanest way to avoid any perception of nepotism or conflict of interest." },
+
+            { q: "Sally is an engineering manager... she is asked to vote on selecting a new software vendor, one of which is the company she recently invested in. The most appropriate action would be for her to:", 
+              options: ["Declare the conflict of interest and not vote", "Mention the ownership and vote", "Suggest that they select a new Internet provider", "Vote since it is a small contract"], 
+              answer: 0, explanation: "Disclosure + recusal is the standard ethical response to a conflict of interest." },
+
+            { q: "Internet threats, such as hackers, spammers, or vandals... the following two methods can be used:", 
+              options: ["Firewall & cloud computing.", "Back-up hardware & firewall.", "Antivirus software & alert employees.", "Firewall & antivirus software."], 
+              answer: 3, explanation: "Firewall and antivirus software are the two primary technical defenses against common internet threats." },
+
+            { q: "Katniss, a civil engineer, is reviewing work prepared by her team... According to APEGA’s professional practice standards, which of the following best describes her responsibilities when taking professional responsibility for work prepared by others?", 
+              options: ["Katniss only needs to ensure that the junior engineers have completed their assigned tasks without any further review.", "Katniss must conduct a thorough review, which includes confirming the reliability, accuracy, and validity of the work...", "Katniss can rely solely on verbal confirmations...", "Katniss needs to personally redo all calculations..."], 
+              answer: 1, explanation: "A thorough review is required before assuming professional responsibility." },
+
+            { q: "Jane is a P.Eng. ... Jane reads up on the Fisheries Act, which is a federal act that______________.", 
+              options: ["alters the pH level of any pond, river or lake", "forbids activities that might harm any fish habitat", "levies penalties for dumping toxic materials into bodies of water", "limits overfishing"], 
+              answer: 1, explanation: "The Fisheries Act protects fish and fish habitat by prohibiting harmful alteration, disruption, or destruction." },
+
+            { q: "Umar, P.Eng., is promoted to an officer position... started up a side business that operates in competition with his company. What statement is true about Umar’s fiduciary duty:", 
+              options: ["He has no fiduciary duty as it is only for the directors of the company", "The company’s interests should always be higher than his own", "The shareholders may sue him for breach of fiduciary duty", "Umar is not responsible as a fiduciary duty clause was not in his contract"], 
+              answer: 1, explanation: "Officers owe a fiduciary duty to put the company’s interests above their own." },
+
+            { q: "Nick is a Professional Engineer who is ready to seal his first drawings... electronically sealing a drawing is _________ sealing a document by hand.", 
+              options: ["As good as.", "Better than.", "More secure than.", "Not as good as."], 
+              answer: 0, explanation: "Most associations consider properly implemented electronic seals equivalent to hand seals." },
+
+            { q: "Sean entered a contract... His lawyer tells him a material mistake means:", 
+              options: ["It is a mistake that is trivial", "It relates to the estimating or budgeting of physical goods", "It is when sections of the contract contradict another section...", "It is a significant error relating to facts central to the heart of the contract"], 
+              answer: 3, explanation: "A material mistake goes to the root/essence of the contract." },
+
+            { q: "Alex has a business that develops a variety of IPs... the basic principle for regulating intellectual property is:", 
+              options: ["To ensure that the idea is not copied and used illegally by foreign companies.", "To encourage creativity by protecting creative people's rights and providing an orderly way to exchange innovative ideas.", "To allow inventors to profit from their designs and creativity.", "To limit the amount of profit the creator can make on their product."], 
+              answer: 1, explanation: "The core purpose of IP law is to incentivize innovation while allowing orderly dissemination of ideas." },
+
+            { q: "Ten years after obtaining your P.Eng... We’re Nuts considers suing you but realizes you don’t have any business assets... lien legislation that provides We’re Nuts with a cause of action (right to sue)__________.", 
+              options: ["against the owner’s property", "the owner", "you and collect any personal assets you have up to the value it is owed", "all others"], 
+              answer: 0, explanation: "Construction liens typically attach to the improved property itself." },
+
+            { q: "Scott, P.Eng. ... suggests that his lawyers include a clause to extend the contract should an event out of their control occur. Scott’s lawyers tell him that such a clause is called:", 
+              options: ["Duty to good faith", "Force majeure", "Negative restrictive covenant", "No-damages-for-delay"], 
+              answer: 1, explanation: "Force majeure clauses cover uncontrollable events like natural disasters." },
+
+            { q: "Belle is an industrial engineer... the contractor is considering switching to a different type of steel... What is the best way to describe the contractor's actions related to the steel supply?", 
+              options: ["Repudiation", "Fundamental breach", "Anticipatory breach", "Minor breach"], 
+              answer: 2, explanation: "Indicating in advance they may not perform as agreed is anticipatory breach." },
+
+            { q: "Reiko... wants to ensure that the contract includes adequate protection for her client against any claims... Which clause should Reiko specifically include?", 
+              options: ["Warranty Clause...", "Termination Clause...", "Confidentiality Clause...", "Indemnification Clause..."], 
+              answer: 3, explanation: "An indemnification clause protects the client from claims arising from the engineer’s negligence or errors." },
+
+            { q: "Lake is a materials engineer... What is true about the types of damages Lake might seek if the supplier breaches their contract?", 
+              options: ["Consequential damages can be claimed for losses not directly related to the materials...", "Liquidated damages are only applicable if the project is completed on time...", "Lake cannot seek any damages...", "Both liquidated and consequential damages are equally easy to calculate..."], 
+              answer: 0, explanation: "Consequential damages cover foreseeable indirect losses such as lost profits due to delays." },
+
+            { q: "Ginebra... is preparing for an upcoming project and considering using a standard form contract. Which of the following approaches should she take?", 
+              options: ["Use the standard contract without any modifications", "Use a standard contract approved by a government agency", "Ignore standard contracts and create a completely new agreement", "Customize the standard contract to fit her project’s specific requirements"], 
+              answer: 3, explanation: "Standard forms should be adapted to the specific risks and needs of the project." },
+
+            { q: "Before receiving an engineering licence... Every association in Canada agrees that _______ is the most important criterion, with _______ being the second most important criterion.", 
+              options: ["Application of theory / management.", "Application of theory / practical experience.", "Practical experience / application of theory.", "Practical experience / communication skills."], 
+              answer: 1, explanation: "Application of theory is ranked first, followed by practical experience." },
+
+            { q: "Drew... authenticated a field review report... At the discipline hearing, the association would likely find that Drew acted ________, meaning he lacked knowledge, skill or ________.", 
+              options: ["Incompetently / understanding.", "Unprofessionally / good character.", "Incompetently / judgment.", "Unprofessionally / understanding."], 
+              answer: 2, explanation: "He demonstrated incompetence due to lack of due care and professional judgment." },
+
+            { q: "Continuing professional development (CPD) is mandatory... a practice review is done to ensure that these self-assessments are:", 
+              options: ["Benchmark.", "Complete.", "Fair and honest.", "Up-to-date."], 
+              answer: 2, explanation: "Audits focus on whether the self-assessment is truthful and honest." },
+
+            { q: "The provincial and territorial Acts have similarities regarding behaviour subject to discipline. Two common causes for disciplinary action are:", 
+              options: ["Conviction of a minor offence and breach of the Code of Ethics.", "Incompetence and professional misconduct.", "Physical incapacity and missing a deadline.", "Mental incapacity and practicing engineering without a licence."], 
+              answer: 1, explanation: "Incompetence and professional misconduct are the two primary grounds for discipline." },
+
+            { q: "Brent Smith... Once finished, he submits his work experience record... which identifiers would this stamp include?", 
+              options: ["Engineering discipline, association name, licence/permit number, province/territory.", "Licence/permit number, engineering discipline, licence holder name, licence type.", "Signature line, province/territory, licence type, licence holder name.", "Province/territory, licence type, licence holder name, licence number."], 
+              answer: 3, explanation: "Typical stamp includes province/territory, licence type, holder’s name, and licence number." },
+
+            { q: "Communication skills... sealing a drawing communicates that you:", 
+              options: ["Have confirmed that the drawing exceeds codes and standards.", "Have checked, reviewed and take responsibility for the work.", "Have liability insurance.", "May need to make edits later."], 
+              answer: 1, explanation: "Sealing means you have reviewed the work and accept professional responsibility for it." },
+
+            { q: "You are a licensed civil engineer... your brilliant friend who holds a civil undergraduate degree but is not yet licensed asks you to check, sign, and seal her drawing... As a licensed practitioner, you should:", 
+              options: ["Refuse unless you do a proper review and are willing to accept responsibility.", "Review and seal it, but make it clear that you accept no responsibility.", "Request payment for the work.", "Stamp it right away since you trust your friend’s work."], 
+              answer: 0, explanation: "You may only seal work you have personally reviewed and are willing to take full responsibility for." },
+
+            { q: "Sarah, P.Geo., ... noticed that the company had been asking her to conduct her analysis far beyond the borders of their property... before “whistleblowing,” she understands that she must first do which of the following?", 
+              options: ["Attempt to change the culture of the business.", "Show the company the consequences of its actions.", "Try to correct the situation through internal channels.", "Write a letter to the company’s CEO."], 
+              answer: 2, explanation: "Internal resolution attempts are generally required before external whistleblowing." },
+
+            { q: "Michael, P.Eng., finds himself working outside of Canada... a government official demanded payment... If Michael submits payment under these circumstances, the exchange could be best described as:", 
+              options: ["Bribery.", "Extortion.", "Gift giving.", "Giving grease money."], 
+              answer: 0, explanation: "Paying for something that should be provided freely is bribery." },
+
+            { q: "Mahmoud... his employer suggests substituting some materials... most engineering associations’ Code of Ethics would suggest that Mahmoud has a “duty to inform” his employer of the _____________ associated with a deviation...", 
+              options: ["Consequences.", "Opportunities.", "Benefits.", "Actual cost savings."], 
+              answer: 0, explanation: "The duty to inform includes warning about risks and consequences of changes." },
+
+            { q: "You are working on drawings that require about 20 hours or more of review... A client urges you to send final drawings immediately... The best course of action for you would be to:", 
+              options: ["Bring in other knowledgeable practitioners to finish the drawings...", "Do a quick review and seal the drawings. Then, issue them with the word 'Draft'...", "Let the client know that it is a top priority, but send the drawings only once they have been reviewed properly.", "Redesign the drawings to make them simpler..."], 
+              answer: 2, explanation: "Public safety and professional responsibility come before meeting tight deadlines." },
+
+            { q: "Consider the following four scenarios, and select the professional employee who does NOT have grounds to blow the whistle...", 
+              options: ["Susan, P. Eng. (dumping wastewater)", "Craig, P.Geo. (fraudulent tax activity)", "Troy, P. Geo. (hiding trade secrets)", "Simon, P. Eng. (CEO stealing from paycheques)"], 
+              answer: 2, explanation: "Protecting legitimate trade secrets is not grounds for whistleblowing." },
+
+            { q: "Ahmed... aims to guard their computer’s connection to the internet and block unauthorized data transmission according to a set of rules. Which method does he choose?", 
+              options: ["Antivirus software.", "Firewall software.", "Server restrictions.", "Network monitoring tools."], 
+              answer: 1, explanation: "A firewall controls and blocks unauthorized network traffic based on rules." },
+
+            { q: "In March 1989, a disaster caused significant damage to the Alaskan shoreline... This 1989 disaster is known as:", 
+              options: ["Chernobyl", "Exxon Valdez oil spill", "Seveso Dioxin Cloud", "Three Mile Island"], 
+              answer: 1, explanation: "The Exxon Valdez oil spill led to the creation of Ceres." },
+
+            { q: "Nadia, P.Eng., has just started a business... Her BEST protection against a lawsuit for negligence from being filed is:", 
+              options: ["Careful, thorough, accurate work", "Errors and omissions insurance", "Maintaining her P.Eng. in good standing...", "Only stamping designs that she has reviewed..."], 
+              answer: 0, explanation: "The best prevention is competent, diligent professional practice." },
+
+            { q: "Nate’s boss tells him the company is switching to a new airflow simulation software... Nate’s first course of action should be to:", 
+              options: ["Create a dummy run...", "Read the software documentation to ensure proper use", "Perform hand calculations...", "Switch to a software he understands"], 
+              answer: 1, explanation: "Understanding the tool’s proper use and limitations is the essential first step." },
+
+            { q: "Enzo... needs to hire a specialized firm... Given the uncertain scope... which type of contract would be most suitable?", 
+              options: ["Fixed Price", "Cost-Plus", "Unit Price", "Time and Materials"], 
+              answer: 1, explanation: "Cost-Plus is suitable when scope is uncertain and innovation is expected." },
+
+            { q: "Andres... is often hired as an expert witness in court. It is essential for Andres to act as a professional to:", 
+              options: ["Provide a factual, unbiased and adversarial testimonial", "Ensure the jury thoroughly understands all technical matters", "Present all possible theories...", "Restrict testimony to areas of expertise"], 
+              answer: 3, explanation: "Expert witnesses must stay strictly within their area of expertise." },
+
+            { q: "Mateo... The contract specifies that he is responsible for ensuring all safety standards... If the contract includes divisible obligations, what would this mean...", 
+              options: ["It requires completion of all solar panels...", "It allows Mateo to complete the solar panel installation in stages...", "It means that if his bank stops funding...", "It stipulates that all parties must fulfil the contract together."], 
+              answer: 1, explanation: "Divisible obligations allow performance in separate stages." },
+
+            { q: "Seven... intends to specify wiring that complies with outdated building standards... what essential contract element might the courts view as not being met?", 
+              options: ["Offer Made and Accepted...", "Mutual Intent...", "Capacity...", "Lawful Purpose..."], 
+              answer: 3, explanation: "A contract must have a lawful purpose; using non-compliant materials violates this." },
+
+            { q: "Arlo... is involved in a construction project dispute that has reached the highest level of the Canadian court system. Which court will hear Arlo’s case...", 
+              options: ["The Federal Court of Appeal...", "The Supreme Court of Canada; the case must be of national importance", "The Provincial Court of Appeal...", "The Provincial Superior Court..."], 
+              answer: 1, explanation: "The Supreme Court of Canada is the final court of appeal for cases of national importance." },
+
+            { q: "Sundar... wants to choose the most affordable way to establish ownership over the trademark... should choose which of the following options?", 
+              options: ["Register it with his local IP lawyer.", "Apply to the Office of the Registrar of Trademarks.", "Claim ownership freely since the name is being used...", "“Drillin’ Down Deep” cannot become a trade-mark..."], 
+              answer: 1, explanation: "Applying to the federal Registrar of Trademarks is the standard and most effective way." },
+
+            { q: "Foster... notices that the ventilation system is malfunctioning... According to the Occupational Health and Safety Act, what right does Foster have?", 
+              options: ["Request a transfer", "File a complaint later", "Refuse work", "Demand overtime pay"], 
+              answer: 2, explanation: "Workers have the right to refuse unsafe work when there is reasonable concern for safety." },
+
+            { q: "Dan’s company excavated a parking lot... the engineer injured his legs... Can Dan's company be sued under tort law?", 
+              options: ["No, because there was no contract...", "Yes, because Dan's company is liable for the injuries caused by their negligent actions...", "Yes, because Dan's company is responsible for ensuring all engineers...", "No, because the engineer should have been more careful..."], 
+              answer: 1, explanation: "Tort law (negligence) creates liability independent of any contract." },
+
+            { q: "The CEAB evaluates undergraduate engineering programs... The CEAB stands for:", 
+              options: ["Canadian Engineering Accreditation Board.", "Certified Engineering Accreditation Board.", "Centre for Engineers Accreditation Board.", "Current Engineering Accolade Board."], 
+              answer: 0, explanation: "Canadian Engineering Accreditation Board." },
+
+            { q: "Peter... For Peter to transfer his licence from APEGA to PEGNL, he must ensure that he:", 
+              options: ["Has not been disciplined by APEGA and is in good standing.", "Has worked as a P.Eng. in his current province for 5 or more years.", "Passes a PEGNL test on local codes...", "Presents two original designs..."], 
+              answer: 0, explanation: "Good standing and no outstanding discipline is the fundamental requirement for mobility." },
+
+            { q: "The following are all stages in the disciplinary process, EXCEPT for which option?", 
+              options: ["Alternative dispute resolution.", "Discipline hearing.", "Gather evidence.", "Investigation and peer review."], 
+              answer: 0, explanation: "Alternative dispute resolution is not a standard stage in formal disciplinary proceedings." },
+
+            { q: "If someone from the public makes a complaint against a member, the Investigation Committee... will do a proper investigation that may involve:", 
+              options: ["Banning the member...", "Dismissing the complaint if it is clearly frivolous or vexatious.", "Dismissing the complaint if the professional denies...", "Sending a letter to the defendant..."], 
+              answer: 1, explanation: "Frivolous or vexatious complaints can be dismissed early." },
+
+            { q: "Engineering and Geoscience professions benefit our society greatly. Which of the following is not an example of a Canadian engineering or geoscience achievement?", 
+              options: ["Luna 3 probe photographs the moon.", "Alouette-I Orbiting Research Satellite.", "Transcontinental railway network.", "CANDU nuclear power system."], 
+              answer: 0, explanation: "Luna 3 was a Soviet achievement." },
+
+            { q: "All of Canada’s provinces/territories have passed _________ to establish the Professional Engineering and/or Geoscience Act, which gives ___________ to the local Engineering/Geoscience Association...", 
+              options: ["Guidelines / the option.", "Laws / permission.", "Legislation / authorization.", "Statutes / capacity."], 
+              answer: 2, explanation: "Legislation grants the Associations statutory authorization to self-regulate." },
+
+            { q: "Which of the following best describes Aristotle’s ethical theory, Virtue Ethics?", 
+              options: ["All individuals are free, equal, and have rights.", "Happiness is achieved by developing virtues or character qualities through deduction and reason.", "Each person must act under universal principles...", "An action is ethically correct if it produces the greatest benefit..."], 
+              answer: 1, explanation: "Virtue Ethics focuses on developing good character traits (virtues) for a flourishing life." },
+
+            { q: "A general principle of the Code of Ethics across provinces and territories is the duty to society, which means a P. Eng. or P.Geo. must:", 
+              options: ["Disclose all information about hazardous materials to the public.", "Value their duty to the public as paramount.", "Keep up to date with technical training.", "Ensure construction sites are safe from danger."], 
+              answer: 1, explanation: "The duty to the public is paramount in all Codes of Ethics." },
+
+            { q: "The topic of ethics is classified under the branch of philosophy called axiology... Which of the following is NOT a philosophy branch?", 
+              options: ["Anthropology – the study of human societies...", "Epistemology – the study of knowledge.", "Logic – the study of rules and reasoning.", "Metaphysics – the study of existence and reality."], 
+              answer: 0, explanation: "Anthropology is a social science, not one of the four main branches of philosophy." },
+
+            { q: "What do most associations’ Codes of Ethics say about the Duty to Colleagues?", 
+              options: ["Act with courtesy and goodwill towards colleagues.", "Treat your colleagues as you would like to be treated.", "There is no such section or discussion about the Duty to Colleagues.", "(incomplete in original, but standard is courtesy and good faith)"], 
+              answer: 0, explanation: "Most Codes require practitioners to act with courtesy, goodwill, and good faith toward colleagues." }
+        ];
+
+        let userAnswers = new Array(quizData.length).fill(null);
+
+        function renderQuiz() {
+            const container = document.getElementById('quiz');
+            container.innerHTML = '';
+
+            quizData.forEach((item, i) => {
+                let html = `
+                    <div class="question" id="q${i}">
+                        <h3>Question ${i+1} of ${quizData.length}</h3>
+                        <p><strong>${item.q}</strong></p>
+                        <div class="options">`;
+
+                item.options.forEach((opt, j) => {
+                    html += `
+                        <label>
+                            <input type="radio" name="q${i}" value="${j}" onchange="saveAnswer(${i}, ${j})">
+                            ${opt}
+                        </label>`;
+                });
+
+                html += `</div>
+                    <button class="reveal-btn" onclick="revealAnswer(${i})">Show Correct Answer & Explanation</button>
+                    <div id="feedback${i}" class="feedback" style="display:none;"></div>
+                </div>`;
+                container.innerHTML += html;
+            });
+        }
+
+        function saveAnswer(qIndex, selected) {
+            userAnswers[qIndex] = selected;
+        }
+
+        function revealAnswer(qIndex) {
+            const fb = document.getElementById(`feedback${qIndex}`);
+            const correctIdx = quizData[qIndex].answer;
+            fb.style.display = "block";
+            fb.className = "feedback correct";
+            fb.innerHTML = `<strong>Correct Answer:</strong> ${quizData[qIndex].options[correctIdx]}<br><br><strong>Explanation:</strong> ${quizData[qIndex].explanation}`;
+        }
+
+        function submitAll() {
+            let score = 0;
+            quizData.forEach((item, i) => {
+                const fb = document.getElementById(`feedback${i}`);
+                if (userAnswers[i] === item.answer) {
+                    score++;
+                } else if (fb) {
+                    fb.style.display = "block";
+                    fb.className = "feedback incorrect";
+                    fb.innerHTML = `Incorrect.<br><strong>Correct answer:</strong> ${item.options[item.answer]}`;
+                }
+            });
+
+            const percentage = Math.round((score / quizData.length) * 100);
+            document.getElementById('finalScore').innerHTML = `
+                <strong>Your Score: ${score} / ${quizData.length} (${percentage}%)</strong><br><br>
+                ${percentage >= 80 ? "Excellent work!" : percentage >= 60 ? "Good effort — review the explanations." : "Keep studying! Review the missed questions carefully."}
+            `;
+            document.getElementById('finalScore').style.display = "block";
+        }
+
+        function resetQuiz() {
+            userAnswers.fill(null);
+            document.querySelectorAll('.feedback').forEach(el => el.style.display = 'none');
+            document.getElementById('finalScore').style.display = 'none';
+            renderQuiz();
+        }
+
+        window.onload = renderQuiz;
+    </script>
+</body>
+</html>
