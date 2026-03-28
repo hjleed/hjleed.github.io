@@ -335,6 +335,17 @@ redirect_from:
       </div>
     </div>
   </section>
+  
+  <section>
+<div>
+
+  ## 📝 Interactive Practice Quiz
+Test your knowledge with my collection of 55 NPPE practice questions.
+
+[Take the Practice Quiz](./nppe-quiz.html){: .btn .btn--primary}
+
+</div>
+  </section>
 
   <footer style="text-align:center; padding:2rem; background:#f4f7fa; color:#666; font-size:0.9rem;">
     <p>NPPE Study Hub – Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved<br>
