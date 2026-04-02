@@ -47,6 +47,10 @@ I have regularly taught the following courses at the University of Ottawa. Detai
   [Course description](https://catalogue.uottawa.ca/search/?P=ELG%204157) ·
   [Syllabus](https://github.com/hjleed/hjleed.github.io/blob/master/files/ELG4157_Winter2025_Syllabus.pdf)
 
+  **ITI 1120 Introduction to Computing I**
+  [Course description](https://catalogue.uottawa.ca/search/?P=ITI%201120) ·
+
+
 ## Lambton College
 
 At Lambton College, I contributed to the curriculum by teaching the following applied data science course:
