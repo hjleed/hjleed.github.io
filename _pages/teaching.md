@@ -49,6 +49,7 @@ I have regularly taught the following courses at the University of Ottawa. Detai
 
   **ITI 1120 Introduction to Computing I**
   [Course description](https://catalogue.uottawa.ca/search/?P=ITI%201120) ·
+  [Syllabus](https://github.com/hjleed/files/blob/main/course-outline-2025%20-%20Copy.pdf)
 
 
 ## Lambton College
