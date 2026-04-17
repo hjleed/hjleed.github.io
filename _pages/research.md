@@ -7,7 +7,7 @@ Throughout my academic career, I have conducted multiple research projects and i
 
 ## Route Stress Index for Electric Vehicle Fleets (AI Researcher)
 
-(2025–2026) <img src="https://energycommunityplatform.eu/wp-content/uploads/2022/06/Volterra-logo.png.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **Volterra**
+(2025–2026) <img src="https://energycommunityplatform.eu/wp-content/uploads/2022/06/Volterra-logo.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **Volterra**
 
 Developed a supervised machine learning framework to quantify operational stress in electric vehicle (EV) fleets from high-frequency telemetry data. Engineered 80+ features from raw signals (speed, battery, GPS, temperature, elevation) to capture kinematic behavior, battery dynamics, and environmental conditions.
 
