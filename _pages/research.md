@@ -9,11 +9,9 @@ Throughout my academic career, I have conducted multiple research projects and i
 
 (2025–2026) <img src="https://energycommunityplatform.eu/wp-content/uploads/2022/06/Volterra-logo.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **Volterra**
 
-Developed a supervised machine learning framework to quantify operational stress in electric vehicle (EV) fleets from high-frequency telemetry data. Engineered 80+ features from raw signals (speed, battery, GPS, temperature, elevation) to capture kinematic behavior, battery dynamics, and environmental conditions.
-
-Formulated the problem as an energy consumption regression task and trained a CatBoost model (R² ≈ 0.92) to predict energy intensity (kWh/km), which is mapped to a 1–10 Route Stress Index (RSI). Introduced a speed-segmented modeling approach for localized stress attribution and a rule-based safety override to handle extreme operating regimes.
-
-This work provides a reproducible and interpretable framework for EV route analysis, enabling data-driven optimization of fleet operations and battery lifecycle management.
+• Architected and implemented an end-to-end supervised ML pipeline for Route Stress Index (RSI) using spatial-temporal telemetry and topographic data.
+• Built scalable simulation frameworks to model large-scale operational workloads and support performance prediction/resource optimization.
+• Delivered a production-ready prototype for early-phase system evaluation and deployment feasibility.
 
 ## Emotion Recognition (Post-Doctoral Research)
 (2023–2024) <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **OrbMedic** & University of Ottawa
