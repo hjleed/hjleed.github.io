@@ -9,30 +9,26 @@ redirect_from:
 
 ## Education 
 
-* Ph.D., <a style='color: black;' href='https://www.uottawa.ca/en' target='_blank'>University of Ottawa</a>
-* M.Sc., <a style='color: black;' href='https://www.utsa.edu/' target='_blank'>The University of Texas as San Antonio</a>
-* B.Sc., <a style='color: black;' href='https://sebhau.edu.ly/en/' target='_blank'>Sebha University</a>
+* **Ph.D.**, [University of Ottawa](https://www.uottawa.ca/en){:target="_blank"} – Ottawa, ON, Canada
+* **M.Sc.**, [The University of Texas at San Antonio](https://www.utsa.edu/){:target="_blank"} – San Antonio, TX, USA
+* **Post-grad Certificate**, [Humber Polytechnic](https://humber.ca/){:target="_blank"} – Toronto, ON, Canada
+* **B.Sc.**, [Sebha University](https://sebhau.edu.ly/en/){:target="_blank"} – Libya
 
-## Research
+## Research Interests
 
-- Digital Signal Processing.
-- Applied Artificial Intelligence.
-- Digital Communication.
-- Nnatural Language Processing
+* Digital Signal Processing
+* Applied Artificial Intelligence
+* Digital Communication
+* Natural Language Processing
 
 ## Teaching
 
-Over the years, I have taught several courses at the University of Ottawa, Lambton College, Elmergib University, and Msallata Higher Institute of Science and Technology.  See the teaching section above.
+Over the years, I have taught several courses at the University of Ottawa, Lambton College, Elmergib University, and Msallata Higher Institute of Science and Technology. My expertise includes Digital Signal Processing, Machine Learning, and Data Analytics. 
 
-
+*Detailed course lists and evaluations can be found in the [Teaching](/teaching) section.*
 
 ## Contact
 
-
-School of Electrical Engineering and Computer Science (EECS) <br />
-University of Ottawa <br />
-20-800 King Edward Avenue <br />
-Ottawa, Ontario, K1N 6N5, Canada <br />
-
-
-  
+**School of Electrical Engineering and Computer Science (EECS)** University of Ottawa  
+800 King Edward Avenue  
+Ottawa, Ontario, K1N 6N5, Canada
