@@ -23,7 +23,7 @@ Focused on detecting affective states through wearable sensor fusion, prioritizi
 * **Applications:** Targeted healthcare monitoring, workplace safety, and adaptive human-machine interfaces.
 
 ## Incremental Open-Set Audio Recognition (PhD Thesis)
-**(2015–2022)** <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="uOttawa Logo" height="40" style="vertical-align: middle; margin-left: 10px;"> **University of Ottawa**
+**(2015–2022)** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/University_of_Ottawa_logo.svg/512px-University_of_Ottawa_logo.svg.png" alt="uOttawa Logo" height="40" style="vertical-align: middle; margin-left: 10px;"> **University of Ottawa**
 
 My doctoral research addressed the "open-set" challenge—enabling systems to recognize known sounds while accurately identifying unknown audio events in dynamic environments.
 * **Contribution:** Proposed novel algorithms for multi-class classification and incremental model adaptation for audio event detection and recognition.
