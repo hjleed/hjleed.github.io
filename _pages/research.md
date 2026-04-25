@@ -1,45 +1,51 @@
 ---
 permalink: /research/
-title: "Research"
+title: "Research & Industrial R&D"
 ---
 
-Throughout my academic career, I have conducted multiple research projects and industry-supported contracts, summarized below.
+Throughout my career, I have bridged the gap between academic theory and industrial application, managing projects ranging from real-time audio processing to large-scale machine learning architecture.
 
-## Route Stress Index for Electric Vehicle Fleets (AI Researcher)
+---
 
-(2025–2026) <img src="https://energycommunityplatform.eu/wp-content/uploads/2022/06/Volterra-logo.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **Volterra**
+## Route Stress Index for EV Fleets (AI Researcher)
+**(2025–2026)** <img src="https://energycommunityplatform.eu/wp-content/uploads/2022/06/Volterra-logo.png" alt="Volterra Logo" height="35" style="vertical-align: middle; margin-left: 10px;"> **Volterra**
 
-• Architected and implemented an end-to-end supervised ML pipeline for Route Stress Index (RSI) using spatial-temporal telemetry and topographic data.
-• Built scalable simulation frameworks to model large-scale operational workloads and support performance prediction/resource optimization.
-• Delivered a production-ready prototype for early-phase system evaluation and deployment feasibility.
+* **Objective:** Developed a predictive model for Route Stress Index (RSI) to optimize electric vehicle fleet operations and resource allocation.
+* **Implementation:** Architected an end-to-end supervised ML pipeline utilizing spatial-temporal telemetry and topographic data.
+* **Impact:** Built scalable simulation frameworks to model operational workloads and delivered a production-ready prototype for early-phase deployment feasibility.
 
-## Emotion Recognition (Post-Doctoral Research)
-(2023–2024) <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="Company Logo" width="100" style="vertical-align: middle;"> **OrbMedic** & University of Ottawa
+## Wearable-Based Emotion Recognition (Post-Doctoral Research)
+**(2023–2024)** <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="OrbMedic Logo" height="30" style="vertical-align: middle; margin-left: 10px;"> **OrbMedic & University of Ottawa**
 
-My post-doctoral work focused on developing advanced emotion-recognition systems using multimodal data. The research involved designing machine-learning models that integrate physiological signals, facial-expression analysis, and contextual information to improve accuracy and robustness. This work contributed to affective computing, with applications in healthcare, human–computer interaction, and adaptive learning environments.
+Focused on detecting affective states through wearable sensor fusion, prioritizing physiological and motion-based data to ensure non-intrusive monitoring.
+* **Sensor Fusion:** Developed ML models integrating **Electrodermal Activity (EDA)**, **Electrocardiogram (ECG)**, **Blood Volume Pulse (BVP)**, and inertial data (**Accelerometer/Gyroscope**).
+* **Innovation:** Applied signal processing techniques to extract robust emotional indicators from noisy, real-world wearable data, avoiding the privacy concerns of computer vision.
+* **Applications:** Targeted healthcare monitoring, workplace safety, and adaptive human-machine interfaces.
 
-## Audio Recognition in Incremental Open-Set Environments (PhD Thesis)
-(2015–2022) <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="Company Logo" width="70" style="vertical-align: middle;"> **University of Ottawa**
+## Incremental Open-Set Audio Recognition (PhD Thesis)
+**(2015–2022)** <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/University_of_Ottawa_Logo.svg/375px-University_of_Ottawa_Logo.svg.png" alt="uOttawa Logo" height="40" style="vertical-align: middle; margin-left: 10px;"> **University of Ottawa**
 
-My doctoral research examined the challenges of multi-class classification in open-set audio recognition and incremental model adaptation. I proposed and validated new algorithms through extensive experimentation, resulting in three peer-reviewed publications. The developed methods demonstrated improved performance across a wide range of openness conditions in sound-recognition scenarios.
+My doctoral research addressed the "open-set" challenge—enabling systems to recognize known sounds while accurately identifying unknown audio events in dynamic environments.
+* **Contribution:** Proposed novel algorithms for multi-class classification and incremental model adaptation for audio event detection and recognition.
+* **Dissemination:** Resulted in three peer-reviewed publications validating performance across various levels of environmental "openness."
 
-## Audio-Based Surveillance (Research Contract)
-(2016–2018) <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1397201340/db79af3c1247a5a26e5345a6b7137440.jpg?ik-sanitizeSvg=true" alt="Company Logo" width="100" style="vertical-align: middle;"> **iWatchLife** & University of Ottawa
+## Audio-Based Surveillance Systems (Research Contract)
+**(2016–2018)** <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1397201340/db79af3c1247a5a26e5345a6b7137440.jpg?ik-sanitizeSvg=true" alt="iWatchLife Logo" height="30" style="vertical-align: middle; margin-left: 10px;"> **iWatchLife & University of Ottawa**
 
-This project proceeded in two phases:  
-1. **Algorithm development** and evaluation in MATLAB.  
-2. **Real-time implementation** in C/C++ integrated with iWatchLife’s surveillance platform.
+* **Development:** Designed and evaluated real-time detection algorithms implemented in C/C++ for integration into smart home camera platforms.
+* **Innovation:** Introduced a background–foreground audio separation technique to significantly increase detection robustness in real-world acoustic environments.
+* **Output:** Published conference paper and released open-source MATLAB code for the research community.
 
-To enhance system robustness, we introduced background–foreground audio separation, published as a conference paper with publicly released MATLAB code. The resulting system achieved real-time audio-event detection on real-world recordings. Portions of the work were completed under confidentiality and intellectual property agreements with iWatchLife.
+## LPC for Hearing Aid Technology (Research Contract)
+**(2015–2016)** <img src="https://eu-images.contentstack.com/v3/assets/blt7831180d775082fd/blt84f1f9c70f625771/66c2dd38d058312bcd761556/starkey_hearing_technologies_logo.jpg?branch=web_prod" alt="Starkey Logo" height="25" style="vertical-align: middle; margin-left: 10px;"> **Starkey & University of Ottawa**
 
-## Linear Predictive Coding for Hearing Aids (Research Contract)
-(2015–2016) <img src="https://eu-images.contentstack.com/v3/assets/blt7831180d775082fd/blt84f1f9c70f625771/66c2dd38d058312bcd761556/starkey_hearing_technologies_logo.jpg?branch=web_prod" alt="Company Logo" width="100" style="vertical-align: middle;"> **Starkey** & University of Ottawa
-
-This project developed a linear predictive coding (LPC) framework using backward adaptation and noise shaping. Backward adaptation eliminates the need to transmit prediction coefficients, reducing bit rate while maintaining low computational complexity and minimal algorithmic delay—features essential for hearing-aid applications.  
-At a data rate of 32 kbit/s and sampling frequency of 8 kHz, the proposed method achieved an improvement of approximately 0.2 PESQ compared to traditional forward-adaptation LPC techniques.
+Focused on low-latency speech coding architectures essential for modern hearing assistance devices.
+* **Technical Approach:** Developed a Linear Predictive Coding (LPC) framework using backward adaptation and noise shaping to minimize bit rate and algorithmic delay.
+* **Results:** Achieved a **0.2 PESQ** improvement over traditional forward-adaptation techniques at a data rate of 32 kbit/s.
 
 ## Eukaryotic Gene Prediction (Master’s Research)
-(2011) <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="Company Logo" width="50" style="vertical-align: middle;"> **The University of Texas at San Antonio**
+**(2011)** <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="UTSA Logo" height="40" style="vertical-align: middle; margin-left: 10px;"> **The University of Texas at San Antonio**
 
-As part of my master’s studies, I conducted research on computational methods for eukaryotic gene prediction. The work focused on developing and evaluating algorithms capable of identifying coding regions within complex genomic sequences, where intron–exon structures present significant analytical challenges. My research involved applying statistical modeling, sequence analysis, and machine-learning techniques to improve the accuracy of gene-structure prediction in eukaryotic organisms. This project strengthened my foundation in bioinformatics and contributed to a deeper understanding of computational genomics and biological signal processing.
-
+Conducted research in bioinformatics, applying statistical modeling and machine learning to genomic sequence analysis.
+* **Focus:** Developing algorithms to identify coding regions (exons) within complex, intron-heavy eukaryotic structures.
+* **Skills Involved:** Sequence analysis, biological signal processing, and computational genomics.
