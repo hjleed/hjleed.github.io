@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hitham Jleed"
+title                    : "Hitham Jleed, Ph.D., P.Eng."
 title_separator          : "-"
-name                     : &name "Hitham Jleed"
+name                     : &name "Hitham Jleed, Ph.D., P.Eng."
 description              : &description "Part-time Professor at the University of Ottawa"
 url                      : https://hjleed.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hitham Jleed"
+  name             : "Hitham Jleed, Ph.D., P.Eng."
   avatar           : "profile3.jpg" #"profile.png"
   bio              : "Ph.D.<br>Part-time Professor @ <a style='color: black;' href='https://uottawa.ca' target='_blank'>uOttawa</a>"
   location         :
