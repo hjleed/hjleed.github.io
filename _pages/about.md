@@ -7,12 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-## Education 
+## Education
 
-* **Ph.D.**, [University of Ottawa](https://www.uottawa.ca/en){:target="_blank"} – Ottawa, ON, Canada
-* **M.Sc.**, [The University of Texas at San Antonio](https://www.utsa.edu/){:target="_blank"} – San Antonio, TX, USA
-* **Post-grad Certificate**, [Humber Polytechnic](https://humber.ca/){:target="_blank"} – Toronto, ON, Canada
-* **B.Sc.**, [Sebha University](https://sebhau.edu.ly/en/){:target="_blank"} – Libya
+* **Ph.D. in Electrical and Computer Engineering**, [University of Ottawa](https://www.uottawa.ca/){:target="_blank"} – Ottawa, ON, Canada  
+* **M.Sc. in Electrical and Computer Engineering**, [The University of Texas at San Antonio](https://www.utsa.edu/){:target="_blank"} – San Antonio, TX, USA  
+* **Postgraduate Certificate in Artificial Intelligence and Machine Learning**, [Humber College](https://humber.ca/){:target="_blank"} – Toronto, ON, Canada  
+* **B.Sc. in Electronics and Computer Engineering**, [Sebha University](https://sebhau.edu.ly/en/){:target="_blank"} – Libya
+
 
 ## Research Interests
 
