@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hitham Jleed, Ph.D., P.Eng."
+title                    : "Hitham Jleed"
 title_separator          : "-"
-name                     : &name "Hitham Jleed, Ph.D., P.Eng."
+name                     : &name "Hitham Jleed"
 description              : &description "Part-time Professor at the University of Ottawa"
 url                      : https://hjleed.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
