@@ -15,15 +15,16 @@ Throughout my career, I have bridged the gap between academic theory and industr
 * **Impact:** Built scalable simulation frameworks to model operational workloads and delivered a production-ready prototype for early-phase deployment feasibility.
 
 ## Wearable-Based Emotion Recognition (Post-Doctoral Research)
+
 **(2023–2024)** <img src="https://orbmedic.com/images/orbmedic_logo.png.png" alt="OrbMedic" height="28" style="vertical-align: middle; margin-left: 12px;"> **OrbMedic & University of Ottawa**
 
 Focused on detecting affective states through wearable sensor fusion, prioritizing physiological and motion-based data to ensure non-intrusive monitoring.
 * **Sensor Fusion:** Developed ML models integrating **Electrodermal Activity (EDA)**, **Electrocardiogram (ECG)**, **Blood Volume Pulse (BVP)**, and inertial data (**Accelerometer/Gyroscope**).
 * **Innovation:** Applied signal processing techniques to extract robust emotional indicators from noisy, real-world wearable data, avoiding the privacy concerns of computer vision.
 * **Applications:** Targeted healthcare monitoring, workplace safety, and adaptive human-machine interfaces.
-* 
+
 ## Incremental Open-Set Audio Recognition (PhD Thesis)
-**(2015–2022)** <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/University_of_Ottawa_logo.svg/512px-University_of_Ottawa_logo.svg.png" alt="uOttawa" height="32" style="vertical-align: middle; margin-left: 12px;"> **University of Ottawa**
+**(2015–2022)** <img src="https://images.seeklogo.com/logo-png/48/2/university-of-ottawa-logo-png_seeklogo-484503.png" alt="uOttawa" height="32" style="vertical-align: middle; margin-left: 12px;"> **University of Ottawa**
 My doctoral research addressed the "open-set" challenge—enabling systems to recognize known sounds while accurately identifying unknown audio events in dynamic environments.
 * **Contribution:** Proposed novel algorithms for multi-class classification and incremental model adaptation for audio event detection and recognition.
 * **Dissemination:** Resulted in three peer-reviewed publications validating performance across various levels of environmental "openness."
@@ -43,7 +44,7 @@ Focused on low-latency speech coding architectures essential for modern hearing 
 * **Results:** Achieved a **0.2 PESQ** improvement over traditional forward-adaptation techniques at a data rate of 32 kbit/s.
 
 ## Eukaryotic Gene Prediction (Master’s Research)
-**(2011)** <img src="https://www.utsa.edu/_files/images/logos/
+**(2011)** <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="UTSA" height="32" style="vertical-align: middle; margin-left: 12px;"> **The University of Texas at San Antonio**
 
 Conducted research in bioinformatics, applying statistical modeling and machine learning to genomic sequence analysis.
 * **Focus:** Developing algorithms to identify coding regions (exons) within complex, intron-heavy eukaryotic structures.
