@@ -313,3 +313,19 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+/* Research page company logos */
+.research-logo {
+    height: 26px !important;
+    width: auto !important;
+    vertical-align: middle !important;
+    margin-left: 10px !important;
+    margin-right: 6px !important;
+}
+
+.research-logo.uottawa {
+    height: 32px !important;
+}
+
+.research-logo.starkey {
+    height: 23px !important;
+}
