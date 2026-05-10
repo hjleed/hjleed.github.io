@@ -42,7 +42,6 @@ My doctoral research addressed the "open-set" challenge—enabling systems to re
 Focused on low-latency speech coding architectures essential for modern hearing assistance devices.
 
 * **Technical Approach:** Developed a Linear Predictive Coding (LPC) framework using backward adaptation and noise shaping to minimize bit rate and algorithmic delay.
-* **Results:** Achieved a **0.2 PESQ** improvement over traditional forward-adaptation techniques at a data rate of 32 kbit/s.
 
 ## Eukaryotic Gene Prediction (Master’s Research)
 **(2011)** <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="UTSA" class="research-logo"> **The University of Texas at San Antonio**
