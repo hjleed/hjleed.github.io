@@ -44,7 +44,7 @@ Focused on low-latency speech coding architectures essential for modern hearing 
 * **Technical Approach:** Developed a Linear Predictive Coding (LPC) framework using backward adaptation and noise shaping to minimize bit rate and algorithmic delay.
 
 ## Eukaryotic Gene Prediction (Master’s Research)
-**(2011)** <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="UTSA" class="research-logo"> **The University of Texas at San Antonio**
+**(2010-2011)** <img src="https://www.utsa.edu/_files/images/logos/ut-san-antonio-crest.svg" alt="UTSA" class="research-logo"> **The University of Texas at San Antonio**
 
 Conducted research in bioinformatics, applying statistical modeling and machine learning to genomic sequence analysis.
 
