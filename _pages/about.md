@@ -17,16 +17,17 @@ redirect_from:
 
 ## Research Interests
 
-* Digital Signal Processing
-* Applied Artificial Intelligence
-* Digital Communication
-* Natural Language Processing
+* Digital Signal Processing (DSP)
+* Applied Artificial Intelligence and Machine Learning
+* Audio and Physiological Signal Analysis
+* Natural Language Processing (NLP)
+* Pattern Recognition and Incremental Learning
+* Digital and Wireless Communication Systems
+* Adaptive Filtering and System Modeling
+* Human-Centered AI and Multimodal Learning
+* AI for Healthcare and Assistive Technologies
 
-## Teaching
 
-Over the years, I have taught several courses at the University of Ottawa, Lambton College, Elmergib University, and Msallata Higher Institute of Science and Technology. My expertise includes Digital Signal Processing, Machine Learning, and Data Analytics. 
-
-*Detailed course lists and evaluations can be found in the [Teaching](/teaching) section.*
 
 ## Contact
 
