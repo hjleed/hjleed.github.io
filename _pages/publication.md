@@ -23,7 +23,7 @@ title: "Publications"
 
 2026 • Amazon KDP
 
-A comprehensive undergraduate textbook designed for engineering, computer science, and STEM students. The book emphasizes computational thinking, structured programming in C, engineering algorithms, numerical methods, debugging, and practical engineering applications through numerous worked examples and exercises. :contentReference[oaicite:1]{index=1}
+A comprehensive undergraduate textbook designed for engineering, computer science, and STEM students. The book emphasizes computational thinking, structured programming in C, engineering algorithms, numerical methods, debugging, and practical engineering applications through numerous worked examples and exercises. 
 
 **Links**
 
