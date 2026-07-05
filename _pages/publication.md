@@ -17,7 +17,6 @@ title: "Publications"
 An undergraduate textbook introducing computational thinking and
 structured programming in C for engineering and STEM students.
 
-**Links**
 - 📘 [Amazon](https://www.amazon.ca/dp/B0H76ZB8C3)
 - 💻 Companion materials *(Coming Soon)*
 
