@@ -4,36 +4,35 @@ title: "Publications"
 ---
 
 # Publications and Research Contributions
+
 ## Books
 
-<table>
-<tr>
-
-<td width="180">
-
-<img src="https://m.media-amazon.com/images/I/51iYP6q4MxL._SY385_.jpg" width="170">
-
-</td>
-
-<td>
+<img src="https://m.media-amazon.com/images/I/51iYP6q4MxL._SY385_.jpg"
+     align="left"
+     width="180"
+     style="margin-right:25px; margin-bottom:20px;">
 
 ### Fundamentals of Engineering Computation: C Programming
 
 **Hitham Jleed**
 
-2026 • Amazon KDP
+**2026 • Amazon KDP**
 
-A comprehensive undergraduate textbook designed for engineering, computer science, and STEM students. The book emphasizes computational thinking, structured programming in C, engineering algorithms, numerical methods, debugging, and practical engineering applications through numerous worked examples and exercises. 
+**ISBN:** 979-8182321822
+
+A comprehensive undergraduate textbook designed for engineering,
+computer science, and STEM students. The book emphasizes computational
+thinking, structured programming in C, engineering algorithms,
+numerical methods, debugging, and practical engineering applications.
 
 **Links**
 
 - 📘 [Amazon](https://www.amazon.ca/dp/B0H76ZB8C3)
-- 💻 Companion materials *(Soon)*
+- 💻 Companion materials *(Coming Soon)*
 
-</td>
+<br clear="left">
 
-</tr>
-</table>
+
 ## Theses
 
 ### Ph.D. Thesis (2022)
