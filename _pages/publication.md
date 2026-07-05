@@ -3,8 +3,6 @@ permalink: /publications/
 title: "Publications"
 ---
 
-# Publications
-
 ## Books
 
 <img src="https://m.media-amazon.com/images/I/51iYP6q4MxL._SY385_.jpg"
