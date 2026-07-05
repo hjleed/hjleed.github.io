@@ -12,16 +12,12 @@ title: "Publications"
      width="180"
      style="margin-right:25px; margin-bottom:20px;">
 
-### 📘 *Fundamentals of Engineering Computation: C Programming***Hitham Jleed**
+### 📘 *Fundamentals of Engineering Computation: C Programming*
 **2026 • Amazon KDP**
 **ISBN:** 979-8182321822
 
 An undergraduate textbook introducing computational thinking and
 structured programming in C for engineering and STEM students.
-The text combines programming fundamentals with engineering
-applications, numerical methods, algorithm design, debugging,
-and numerous worked examples and programming exercises suitable
-for first-year engineering courses.
 
 **Links**
 - 📘 [Amazon](https://www.amazon.ca/dp/B0H76ZB8C3)
